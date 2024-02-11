@@ -15,3 +15,15 @@
     document.querySelector(".total").textContent = to;
     
  }
+
+ function reset (){
+let all = document.querySelectorAll(".part span");
+let total = document.querySelector(".total");
+
+for (let i = 0; i < all.length; i++) {
+    all[i].textContent = 0;
+}
+
+total.textContent = 0;
+
+ }
