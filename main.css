@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 20px 20px;
+    padding-bottom: 50px;
+    color: white;
+
+    
+    
+    
+  
+}
+
+body {
+    background-color: rgb(61, 102, 73);
+}
+
+.container{
+    width: 30%;
+    margin: auto;
+    background-color: rgba(67, 161, 133, 0.322);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    padding: 10px 0px;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: #e4edf1; 
+    border-radius: 50%; 
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .circle .total{
+
+font-size: 60px;
+  }
+
+
+  .all{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    gap: 40px;
+  }
+
+  .part{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+  }
+
+  .part button{
+
+    padding: 20px;
+    width: 150px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(43, 85, 73, 0.322);
+    color: white;
+    transition: ease-in-out 0.3s;
+  }
+  
+.part button:hover{
+    background-color: rgba(43, 85, 73, 0.622);
+    cursor: pointer;
+    
+}
+
+  .part .counter{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+
+
+  @media  (min-width: 0px) and (max-width: 768px) {
+
+    
+    
+    .container{
+        width:80%;
+    }
+    
+    h1{
+      font-size: 20px;
+      text-align: center;
+      padding: 20px 20px;
+    }
+  }
